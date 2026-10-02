@@ -1,93 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NYEJOMAG HOLDINGS LTD | Building & Renovation Experts</title>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYEJOMAG HOLDINGS LTD | Building Strong Futures</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Arial,sans-serif;background:#fff;color:#1e293b;line-height:1.6}
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:Inter,Arial,sans-serif;background:#f8fafc;color:#0f172a}
 .topbar{background:#f97316;color:#fff;text-align:center;padding:8px;font-weight:700;font-size:13px}
-header{padding:15px 20px;display:flex;justify-content:space-between;align-items:center;max-width:1200px;margin:auto;flex-wrap:wrap;gap:10px}
-.logo{font-weight:900;font-size:22px;color:#0f172a}
-.logo span{color:#f97316}
-.btn{padding:12px 22px;border-radius:10px;text-decoration:none;font-weight:700;display:inline-block}
-.btn-orange{background:#f97316;color:#fff}
-.btn-green{background:#25D366;color:#fff}
-.btn-dark{background:#0f172a;color:#fff}
-.hero{background:#0f172a;color:#fff;text-align:center;padding:70px 20px}
-.hero h1{font-size:36px;font-weight:900;margin-bottom:12px}
-.hero p{font-size:18px;opacity:.9;margin-bottom:20px}
-.section{max-width:1200px;margin:auto;padding:40px 20px}
-.section h2{text-align:center;font-size:28px;font-weight:900;margin-bottom:8px}
-.sub{text-align:center;color:#64748b;margin-bottom:25px}
-.before-after{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-bottom:25px;background:#f8fafc;padding:18px;border-radius:16px}
-.before-after img{width:100%;height:300px;object-fit:cover;border-radius:12px}
-.label{text-align:center;font-weight:800;margin-top:8px;font-size:13px}
-.before{color:#ef4444}.after{color:#16a34a}
-.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
-.card{border-radius:16px;overflow:hidden;box-shadow:0 8px 20px rgba(0,0,0,.12);background:#fff}
-.card img{width:100%;height:260px;object-fit:cover}
-.card-body{padding:14px}
-.badge{display:inline-block;background:#fff7ed;color:#f97316;padding:4px 10px;border-radius:20px;font-size:11px;font-weight:700;margin-bottom:6px}
-.contact-box{background:#0f172a;color:#fff;padding:35px 20px;border-radius:20px;text-align:center}
-footer{text-align:center;padding:18px;color:#94a3b8;font-size:12px}
-@media(max-width:600px){.hero h1{font-size:24px}.before-after{grid-template-columns:1fr}}
+nav{max-width:1280px;margin:auto;display:flex;justify-content:space-between;align-items:center;padding:16px 20px;background:#fff;position:sticky;top:0;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+.logo{font-weight:900;font-size:22px} .logo span{color:#f97316}
+.btn{padding:11px 18px;border-radius:10px;text-decoration:none;font-weight:800;font-size:14px;display:inline-block}
+.btn-orange{background:#f97316;color:#fff} .btn-dark{background:#0f172a;color:#fff} .btn-green{background:#25D366;color:#fff}
+.hero{background:linear-gradient(105deg,#0f172a 60%,#1e293b);color:#fff;padding:90px 20px;text-align:center}
+.hero h1{font-size:44px;font-weight:900;line-height:1.05;max-width:900px;margin:0 auto 16px} .hero p{font-size:18px;opacity:.85;max-width:700px;margin:0 auto 24px}
+.stats{display:flex;justify-content:center;gap:40px;margin-top:32px;flex-wrap:wrap} .stats strong{font-size:30px;color:#f97316;display:block}
+.section{max-width:1280px;margin:auto;padding:55px 20px}
+.section h2{text-align:center;font-size:32px;font-weight:900;margin-bottom:6px} .sub{text-align:center;color:#64748b;margin-bottom:28px}
+.svcgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-bottom:40px}
+.svc{background:#fff;padding:20px;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,.06);border-left:4px solid #f97316}
+.bawrap{background:#fff;border-radius:20px;padding:22px;box-shadow:0 8px 28px rgba(0,0,0,.08);margin-bottom:24px}
+.bagrid{display:grid;grid-template-columns:1fr 1fr;gap:14px} .bagrid img{width:100%;height:300px;object-fit:cover;border-radius:12px}
+.lbl{text-align:center;font-weight:800;margin-top:8px;font-size:12px;padding:6px;border-radius:20px} .lb-b{background:#fef2f2;color:#dc2626} .lb-a{background:#f0fdf4;color:#16a34a}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:20px}
+.card{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 8px 28px rgba(0,0,0,.08)} .card img{width:100%;height:270px;object-fit:cover} .card-body{padding:16px} .badge{background:#fff7ed;color:#f97316;padding:4px 10px;border-radius:20px;font-size:11px;font-weight:800}
+.cta{background:#0f172a;color:#fff;border-radius:22px;padding:45px 25px;text-align:center;margin-top:35px}
+footer{text-align:center;padding:20px;color:#94a3b8;font-size:12px}
+@media(max-width:700px){.hero h1{font-size:28px} .bagrid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<div class="topbar">📍 Nyeri, Kitale & Central | 📞 0729914944 | ✉️ info@nyejomagholdings.co.ke</div>
-<header>
-<div class="logo">NYEJOMAG <span>HOLDINGS LTD</span></div>
-<div style="display:flex;gap:8px;flex-wrap:wrap">
-<a class="btn btn-dark" href="mailto:info@nyejomagholdings.co.ke">Email</a>
-<a class="btn btn-orange" href="tel:0729914944">0729914944</a>
-<a class="btn btn-green" href="https://wa.me/254729914944">WhatsApp</a>
-</div>
-</header>
+<div class="topbar">📍 NYERI | KITALE | CENTRAL KENYA | 📞 0729914944 | ✉️ info@nyejomagholdings.co.ke</div>
+<nav><div class="logo">NYEJOMAG <span>HOLDINGS LTD</span></div><div style="display:flex;gap:8px;flex-wrap:wrap"><a class="btn btn-dark" href="mailto:info@nyejomagholdings.co.ke">Email Us</a><a class="btn btn-orange" href="tel:0729914944">0729914944</a><a class="btn btn-green" href="https://wa.me/254729914944">WhatsApp</a></div></nav>
 <div class="hero">
 <h1>Building Strong Futures in Nyeri & Beyond</h1>
-<p>Commercial Buildings • Renovations • Roofing • Water Intakes • Roads • Interior Finishing</p>
-<a class="btn btn-orange" href="https://wa.me/254729914944">Get Free Quote WhatsApp</a>
-<a class="btn btn-dark" href="#projects" style="margin-left:8px">View Our Works</a>
-</div>
-
-<div class="section" id="projects">
-<h2>Our Recent Works Done</h2>
-<p class="sub">Real Before & After - Nyejomag Holdings Projects</p>
-
-<h3 style="text-align:center;margin:15px 0">🏚️ → 🏠 Complete House Renovation</h3>
-<div class="before-after">
-<div><img src="work-renovation-before.jpg" alt="Before"><div class="label before">BEFORE: Old Roof, Faded Paint</div></div>
-<div><img src="work-renovation-after1.jpg" alt="After"><div class="label after">AFTER: New Decra Roof, Fresh Paint, Gutters</div></div>
-</div>
-<div class="before-after">
-<div><img src="work-renovation-side-before.jpg" alt="Before side"><div class="label before">BEFORE: Side View</div></div>
-<div><img src="work-renovation-after2.jpg" alt="After side"><div class="label after">AFTER: Renovated + Cabro Landscaping</div></div>
-</div>
-
-<h3 style="text-align:center;margin:30px 0 15px">🏠 New Houses & Bungalows</h3>
-<div class="gallery">
-<div class="card"><img src="work-bungalow-luxury.jpg"><div class="card-body"><span class="badge">NEW BUILD - KITALE</span><h3>Luxury 4-Bed Bungalow - Kitale</h3><p>Modern design with double chimneys, large glass, maize farm surroundings. 2024.</p></div></div>
-<div class="card"><img src="work-bungalow-red.jpg"><div class="card-body"><span class="badge">RENOVATION + CABRO</span><h3>Bungalow + Cabro Paving - Nyeri</h3><p>Full renovation: Maroon Decra roof, repaint, hexagonal cabro driveway, garden.</p></div></div>
-</div>
-
-<h3 style="text-align:center;margin:30px 0 15px">🚿 Modern Bathroom & Ablution</h3>
-<div class="gallery">
-<div class="card"><img src="work-ablution.jpg"><div class="card-body"><span class="badge">INTERIOR FINISHING</span><h3>Modern Ablution / Bathroom</h3><p>Marble tiles, instant heater, rain shower - For homes, schools, institutions.</p></div></div>
-<div class="card"><img src="work-bathroom-modern.jpg"><div class="card-body"><span class="badge">BATHROOM RENOVATION</span><h3>High-End Bathroom Finishing</h3><p>Premium waterproof tiles, safety rails - Durable & beautiful.</p></div></div>
-</div>
+<p>Trusted for Construction, Renovations, Roofing, Water Intakes, Roads & Interior Finishing</p>
+<div><a class="btn btn-orange" href="https://wa.me/254729914944">Get Free Quote WhatsApp</a> <a class="btn btn-dark" href="#projects" style="border:1px solid #fff;margin-left:8px">View Real Works</a></div>
+<div class="stats"><div><strong>150+</strong>Projects</div><div><strong>10+</strong>Years</div><div><strong>4.9★</strong>Rating</div></div>
 </div>
 
 <div class="section">
-<div class="contact-box">
+<div class="svcgrid">
+<div class="svc"><h3>🏗️ Building Construction</h3><p>Bungalows, commercial, from foundation to finishing.</p></div>
+<div class="svc"><h3>🏚️ Renovations</h3><p>Roofing, repaint, extensions, complete transformation.</p></div>
+<div class="svc"><h3>🛣️ Roads & Cabro</h3><p>Driveways, cabro, drainage, access roads.</p></div>
+<div class="svc"><h3>💧 Water & Interior</h3><p>Water intakes, electrical, bathrooms, biodigester.</p></div>
+</div>
+
+<div id="projects">
+<h2>Our Recent Works Done</h2>
+<p class="sub">Real Before & After - By Nyejomag Holdings Ltd</p>
+
+<div class="bawrap">
+<h3 style="text-align:center;margin-bottom:14px">🏚️ → 🏠 Full Renovation - Roof & Paint</h3>
+<div class="bagrid">
+<div><img src="wa_image_7131145229595240524_3.jpg"><div class="lbl lb-b">BEFORE: Old Rusty Roof</div></div>
+<div><img src="wa_image_7131145229595240524_4.jpg"><div class="lbl lb-a">AFTER: New Decra Roof + Gutters</div></div>
+</div>
+</div>
+
+<div class="bawrap">
+<div class="bagrid">
+<div><img src="wa_image_7131145229595240524_5.jpg"><div class="lbl lb-b">BEFORE: Side View - Worn</div></div>
+<div><img src="wa_image_7131145229595240524_2.jpg"><div class="lbl lb-a">AFTER: Renovated + Landscaped + Cabro</div></div>
+</div>
+</div>
+
+<h2 style="margin-top:45px">New Houses Built</h2>
+<p class="sub">Modern Bungalows - Kitale & Nyeri</p>
+<div class="gallery">
+<div class="card"><img src="wa_image_7131145229595240524_2.jpg"><div class="card-body"><span class="badge">NEW BUILD - KITALE</span><h3 style="margin-top:8px">Luxury 4-Bed Bungalow - Kitale</h3><p style="color:#64748b;font-size:14px">Modern grey roof with double chimneys, large glass windows, maize farm surroundings. 2024.</p></div></div>
+<div class="card"><img src="wa_image_7131145229595240524_1.jpg"><div class="card-body"><span class="badge">RENOVATION + CABRO - NYERI</span><h3 style="margin-top:8px">Bungalow + Cabro Paving - Nyeri</h3><p style="color:#64748b;font-size:14px">Full renovation: Maroon Decra roof, repaint, hexagonal cabro driveway, garden.</p></div></div>
+</div>
+
+<h2 style="margin-top:45px">Interior Finishing</h2>
+<p class="sub">Modern Bathrooms & Ablution Blocks</p>
+<div class="gallery">
+<div class="card"><img src="wa_image_7131145229595240524_8.jpg"><div class="card-body"><span class="badge">BATHROOM FINISHING</span><h3 style="margin-top:8px">Modern Bathroom - Marble Tiles</h3><p style="color:#64748b;font-size:14px">Instant heater, rain shower, safety rails - For homes, schools, institutions.</p></div></div>
+<div class="card"><img src="wa_image_7131145229595240524_6.jpg"><div class="card-body"><span class="badge">ABLUTION BLOCK</span><h3 style="margin-top:8px">High-End Ablution Block</h3><p style="color:#64748b;font-size:14px">Waterproof, durable, premium finishing - Clean & modern.</p></div></div>
+</div>
+
+<div class="cta">
 <h2>Ready to Build or Renovate?</h2>
-<p style="margin:12px 0;opacity:.8">Building Construction | Renovations | Roofing | Water Intakes | Electrical | Biodigester | Cabro</p>
-<p style="font-size:20px;font-weight:800;margin:12px 0">📞 0729914944 | ✉️ info@nyejomagholdings.co.ke</p>
-<div style="margin-top:18px"><a class="btn btn-orange" href="tel:0729914944">Call Now</a> <a class="btn btn-green" href="https://wa.me/254729914944">WhatsApp Us</a></div>
-<p style="margin-top:15px;font-size:12px;opacity:.6">📍 Kitale - Rift Valley | Nyeri | Central Kenya | Nationwide</p>
+<p style="opacity:.8;margin:12px 0">Building • Renovations • Roofing • Water • Electrical • Cabro • Interior</p>
+<p style="font-size:22px;font-weight:900">📞 0729914944 | ✉️ info@nyejomagholdings.co.ke</p>
+<div style="margin-top:18px"><a class="btn btn-orange" href="tel:0729914944">Call Now</a> <a class="btn btn-green" href="https://wa.me/254729914944" style="margin-left:8px">WhatsApp</a></div>
 </div>
 </div>
-<footer>© 2026 NYEJOMAG HOLDINGS LTD - Building Strong Futures<br>Live: nyejomag-holdings-limited.onrender.com → Soon: www.nyejomagholdings.co.ke</footer>
+</div>
+<footer>© 2026 NYEJOMAG HOLDINGS LTD | nyejomag-holdings-limited.onrender.com → Soon www.nyejomagholdings.co.ke</footer>
 </body>
 </html>
