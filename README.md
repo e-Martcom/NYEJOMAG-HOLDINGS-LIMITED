@@ -1,2 +1,4 @@
-# NYEJOMAG-HOLDINGS-LIMITED
-Building Construction, Renovations, Roofing, Roads &amp; Water Intakes - Nyeri - Tel 0729914944
+# Nyejomag Holdings Limited
+Construction Company - Nyeri
+Tel: 0729914944
+Services: Building, Renovations, Roofing, Roads, Water Intakes
